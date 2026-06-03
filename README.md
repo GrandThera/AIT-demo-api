@@ -1,8 +1,12 @@
-# Grand Thera USD/BRL Neural SDE + Regime Colab
+# Grand Thera AIT USD/BRL Neural SDE + Regime Colab
 
-Public Google Colab notebook for USD/BRL distributional forecasting and market regime analysis using the Grand Thera / Thera OS API.
+Public Google Colab notebook for USD/BRL distributional forecasting and market regime analysis using the Grand Thera AIT API.
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/GrandThera/AIT-demo-api/blob/main/api_grandthera_usdbrl_neuralsde_regime.ipynb)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/GrandThera/fx-rates-forescast-workbench/blob/main/api_grandthera_usdbrl_neuralsde_regime.ipynb)
+
+## Open Engineering Scope
+
+This repository is an open engineering artifact. It provides a public, simplified sample of the capabilities and architectures Grand Thera uses internally for API-based forecasting, regime analysis, and decision-support workflows. It does not disclose Grand Thera's closed production stack, production model calibration layers, proprietary orchestration systems, client-specific workflows, private data contracts, credentials, or internal architecture.
 
 ## What This Notebook Shows
 
@@ -13,7 +17,7 @@ Public Google Colab notebook for USD/BRL distributional forecasting and market r
 - Transition matrix, expected dwell time, probability of transition to a USD-strength regime, and probability of leaving the current regime.
 - Dashboard plots for transition probabilities, regime-highlighted USD/BRL history, forecast cone, terminal distribution, and empirical comparison.
 
-All forecast and regime model outputs come from the Grand Thera API. The notebook does not run a local HMM, local SDE, local regime model, or local forecast fallback.
+All forecast and regime model outputs come from the Grand Thera AIT API. The notebook does not run a local HMM, local SDE, local regime model, or local forecast fallback.
 
 ## Repository Structure
 
@@ -31,7 +35,7 @@ This repository is intentionally minimal:
 2. Run the setup cell.
 3. Run all cells.
 
-The notebook loads a public USD/BRL price series, sends the numeric series to the Grand Thera API, and renders the returned forecast and regime analysis.
+The notebook loads a public USD/BRL price series, sends the numeric series to the Grand Thera AIT API, and renders the returned forecast and regime analysis.
 
 ## Input Data
 
